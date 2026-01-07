@@ -25,6 +25,10 @@ Calculates the area of a triangle using the formula `0.5 * Base * Height`.
 
 ### 4. 📏 Perimeter Calculator (`Perimeter.java`)
 Calculates the perimeter of a quadrilateral shape by summing up the values of all 4 sides provided by the user.
+### 5. 🌡️ Temperature Converter (`FahrenheitToCelsius.java`)
+A useful tool that converts temperature from Fahrenheit (°F) to Celsius (°C).
+- **Formula:** `(Fahrenheit - 32) * 5/9`
+- **Features:** Takes user input for temperature and outputs the precise Celsius value.
 
 ---
 
