@@ -29,7 +29,15 @@ Calculates the perimeter of a quadrilateral shape by summing up the values of al
 A useful tool that converts temperature from Fahrenheit (°F) to Celsius (°C).
 - **Formula:** `(Fahrenheit - 32) * 5/9`
 - **Features:** Takes user input for temperature and outputs the precise Celsius value.
+### 6. ➕➖ Positive, Negative or Zero Checker (`PositiveNegative.java`)
+A logic-based program that checks the nature of a number provided by the user.
+- It determines if the number is **Positive**, **Negative**, or **Zero**.
+- Demonstrates the use of `if-else if-else` conditional statements.
 
+### 7. 🔢 Odd or Even Checker (`OddEven.java`)
+A classic beginner program to verify if a number is **Odd** or **Even**.
+- **Logic:** Uses the modulus operator (`%`).
+- If `number % 2 == 0`, it prints **Even**, otherwise **Odd**.
 ---
 
 ## 🛠️ Concepts Applied
