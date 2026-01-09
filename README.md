@@ -38,6 +38,11 @@ A logic-based program that checks the nature of a number provided by the user.
 A classic beginner program to verify if a number is **Odd** or **Even**.
 - **Logic:** Uses the modulus operator (`%`).
 - If `number % 2 == 0`, it prints **Even**, otherwise **Odd**.
+- 
+### 8. 📅 Leap Year Checker (`LeapYear.java`)
+A program to determine whether a specific year is a Leap Year or a standard year.
+- **Logic:** Validates if a year is divisible by 4.
+- **Advanced Logic:** Correctly handles century years (e.g., 2000 is a leap year, but 1900 is not) by checking divisibility by 100 and 400.
 ---
 
 ## 🛠️ Concepts Applied
