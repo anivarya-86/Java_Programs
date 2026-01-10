@@ -43,6 +43,11 @@ A classic beginner program to verify if a number is **Odd** or **Even**.
 A program to determine whether a specific year is a Leap Year or a standard year.
 - **Logic:** Validates if a year is divisible by 4.
 - **Advanced Logic:** Correctly handles century years (e.g., 2000 is a leap year, but 1900 is not) by checking divisibility by 100 and 400.
+### 9. 🎓 Student Grade Calculator (`GradeCalculator.java`)
+A program that evaluates student performance based on marks obtained.
+- **Input:** Takes the marks or percentage from the user.
+- **Output:** Assigns a specific Grade (A, B, C, D, or Fail) based on predefined score ranges.
+- **Key Concept:** Demonstrates the efficient use of `else-if` ladders to handle multiple conditions.
 ---
 
 ## 🛠️ Concepts Applied
