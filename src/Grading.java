@@ -6,8 +6,10 @@ public class Grading {
         System.out.println("Welcome To Grade Calculator ");
         System.out.print("Please enter your percentage :");
         float marks = input.nextFloat();
-        if (marks >= 90 ){
-            System.out.println(marks +" Grade A (Congratulation 👍)");
+        if (marks < 0 || marks > 100) {
+        System.out.println("Invalid Input! Marks should be between 0 and 100.");
+        } else if (marks >= 90) {
+        System.out.println(marks +" Grade A (Congratulation 👍)");
         } else if (marks >= 75 ) {
             System.out.println(marks+ " Grade B");
         } else if (marks >= 60) {
@@ -19,3 +21,4 @@ public class Grading {
         }
     }
 }
+
