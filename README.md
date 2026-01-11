@@ -48,7 +48,12 @@ A program that evaluates student performance based on marks obtained.
 - **Input:** Takes the marks or percentage from the user.
 - **Output:** Assigns a specific Grade (A, B, C, D, or Fail) based on predefined score ranges.
 - **Key Concept:** Demonstrates the efficient use of `else-if` ladders to handle multiple conditions.
+### 10. 🏆 Greatest of Three Numbers (`GreatestOfThree.java`)
+A program that takes three numbers as input and identifies the largest among them.
+- **Logic:** Compares three variables (A, B, and C) using relational operators.
+- **Key Concept:** Demonstrates the use of Logical AND (`&&`) operators combined with `if-else` blocks to efficiently find the maximum value.
 ---
+
 
 ## 🛠️ Concepts Applied
 - **Java Basics:** Variables, Data Types (int, double, float).
