@@ -61,7 +61,7 @@ A program that takes three numbers as input and identifies the largest among the
 - **Logic Building:** Implementing mathematical formulas in code.
 - **Operators:** Using Arithmetic operators for calculations.
 
-## 🚀 How to Run
+### 🚀 How to Run
 To run any of these files on your local machine:
 
 1. **Clone this repo:**
