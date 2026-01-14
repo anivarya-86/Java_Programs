@@ -67,7 +67,7 @@ A comprehensive program demonstrating the power of Bitwise operators in Java.
 An optimized way to check if a number is Odd or Even without using the modulo (`%`) operator.
 - **Logic:** Checks the Least Significant Bit (LSB) using `(number & 1)`.
 - **Efficiency:** This method is computationally faster than the standard division method.
----
+----
 
 ### 🚀 How to Run
 To run any of these files on your local machine:
