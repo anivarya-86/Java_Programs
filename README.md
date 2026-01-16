@@ -67,6 +67,12 @@ A comprehensive program demonstrating the power of Bitwise operators in Java.
 An optimized way to check if a number is Odd or Even without using the modulo (`%`) operator.
 - **Logic:** Checks the Least Significant Bit (LSB) using `(number & 1)`.
 - **Efficiency:** This method is computationally faster than the standard division method.
+  
+### 13. ✖️ Multiplication Table Generator (`TableGenerator.java`)
+A program that prints the multiplication table for any number entered by the user.
+- **Input:** Takes an integer (e.g., 5).
+- **Output:** Displays the table from 1 to 10 in a structured format.
+- **Key Concept:** Demonstrates the use of **Loops** (`for` loop or `while` loop) to perform repetitive calculations efficiently.
 ----
 
 ### 🚀 How to Run
