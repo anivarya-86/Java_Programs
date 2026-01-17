@@ -72,7 +72,19 @@ An optimized way to check if a number is Odd or Even without using the modulo (`
 A program that prints the multiplication table for any number entered by the user.
 - **Input:** Takes an integer (e.g., 5).
 - **Output:** Displays the table from 1 to 10 in a structured format.
-- **Key Concept:** Demonstrates the use of **Loops** (`for` loop or `while` loop) to perform repetitive calculations efficiently.
+- **Key Concept:** Demonstrates the use of **Loops** (`for` loop or `while` loop) to perform repetitive calculations efficiently
+  
+### 14. ❗ Factorial Calculator (`Factorial.java`)
+A mathematical program that calculates the factorial of a non-negative integer.
+- **Example:** The factorial of 5 (`5!`) is `5 * 4 * 3 * 2 * 1 = 120`.
+- **Logic:** Uses a loop (`for` or `while`) to multiply a series of descending integers.
+- **Key Concept:** Demonstrates how to use an **accumulator variable** to store results inside a loop.
+
+### 15. 🔢 Sum of Odd Numbers (`SumOfOddNumbers.java`)
+A program designed to calculate the sum of all odd numbers up to a specific limit set by the user.
+- **Example:** If input is `10`, it calculates `1 + 3 + 5 + 7 + 9 = 25`.
+- **Logic:** Uses a loop to traverse numbers and an `if` condition (`i % 2 != 0`) to filter and add only the odd values.
+- **Key Concept:** filtering data inside loops and calculating cumulative sums.
 ----
 
 ### 🚀 How to Run
