@@ -85,6 +85,12 @@ A program designed to calculate the sum of all odd numbers up to a specific limi
 - **Example:** If input is `10`, it calculates `1 + 3 + 5 + 7 + 9 = 25`.
 - **Logic:** Uses a loop to traverse numbers and an `if` condition (`i % 2 != 0`) to filter and add only the odd values.
 - **Key Concept:** filtering data inside loops and calculating cumulative sums.
+
+### 16. 🔗 LCM Calculator (`LCM.java`)
+A program that finds the Least Common Multiple of two given numbers.
+- **Example:** For inputs `4` and `6`, the LCM is `12` (since 12 is the smallest number divisible by both).
+- **Logic:** Starts checking from the larger of the two numbers and increments until a value divisible by both inputs is found.
+- **Key Concept:** Uses `while` loops and the modulus operator (`%`) to find common divisibility.****
 ----
 
 ### 🚀 How to Run
