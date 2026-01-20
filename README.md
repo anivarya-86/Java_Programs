@@ -90,7 +90,13 @@ A program designed to calculate the sum of all odd numbers up to a specific limi
 A program that finds the Least Common Multiple of two given numbers.
 - **Example:** For inputs `4` and `6`, the LCM is `12` (since 12 is the smallest number divisible by both).
 - **Logic:** Starts checking from the larger of the two numbers and increments until a value divisible by both inputs is found.
-- **Key Concept:** Uses `while` loops and the modulus operator (`%`) to find common divisibility.****
+- **Key Concept:** Uses `while` loops and the modulus operator (`%`) to find common divisibility.
+
+### 17. 🛡️ Prime Number Checker (`PrimeNumber.java`)
+A classic algorithm to determine if a number is Prime (divisible only by 1 and itself).
+- **Example:** `7` is Prime, but `9` is not (since 3 divides 9).
+- **Logic:** Iterates through numbers to check for any divisibility other than 1 and the number itself.
+- **Key Concept:** Uses a `boolean` flag to track the status and `break` statement to optimize the loop.
 ----
 
 ### 🚀 How to Run
