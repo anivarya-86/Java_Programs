@@ -96,7 +96,7 @@ A program that finds the Least Common Multiple of two given numbers.
 A classic algorithm to determine if a number is Prime (divisible only by 1 and itself).
 - **Example:** `7` is Prime, but `9` is not (since 3 divides 9).
 - **Logic:** Iterates through numbers to check for any divisibility other than 1 and the number itself.
-- **Key Concept:** Uses a `boolean` flag to track the status and `break` statement to optimize the loop.
+- **Key Concept:** Uses a `boolean` flag to track the status and  using methods in program.
 ----
 
 ### 🚀 How to Run
