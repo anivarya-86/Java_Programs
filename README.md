@@ -97,6 +97,12 @@ A classic algorithm to determine if a number is Prime (divisible only by 1 and i
 - **Example:** `7` is Prime, but `9` is not (since 3 divides 9).
 - **Logic:** Iterates through numbers to check for any divisibility other than 1 and the number itself.
 - **Key Concept:** Uses a `boolean` flag to track the status and  using methods in program.
+
+ ### 18. 🌀 Fibonacci Series Generator (`Fibonacci.java`)
+A program that prints the Fibonacci sequence up to a specific number of terms.
+- **Example:** If input is `5`, output is `0, 1, 1, 2, 3`.
+- **Logic:** Each number is the sum of the two preceding ones (`Third = First + Second `).
+- **Key Concept:** Demonstrates variable swapping logic inside a loop to update values in each iteration.
 ----
 
 ### 🚀 How to Run
