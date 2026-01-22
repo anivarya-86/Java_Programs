@@ -103,6 +103,12 @@ A program that prints the Fibonacci sequence up to a specific number of terms.
 - **Example:** If input is `5`, output is `0, 1, 1, 2, 3`.
 - **Logic:** Each number is the sum of the two preceding ones (`Third = First + Second `).
 - **Key Concept:** Demonstrates variable swapping logic inside a loop to update values in each iteration.
+
+### 19. 🔁 Palindrome Checker (`Palindrome.java`)
+A program that verifies if a number remains the same when its digits are reversed.
+- **Example:** `121` reversed is `121` (Palindrome), but `123` reversed is `321` (Not Palindrome).
+- **Logic:** Extracts digits from the number, builds the reverse number, and compares it with the original.
+- **Key Concept:** Uses a `while` loop with modulus (`%`) and division (`/`) operators to reverse an integer.
 ----
 
 ### 🚀 How to Run
