@@ -109,6 +109,12 @@ A program that verifies if a number remains the same when its digits are reverse
 - **Example:** `121` reversed is `121` (Palindrome), but `123` reversed is `321` (Not Palindrome).
 - **Logic:** Extracts digits from the number, builds the reverse number, and compares it with the original.
 - **Key Concept:** Uses a `while` loop with modulus (`%`) and division (`/`) operators to reverse an integer.
+
+### 20. 💪 Armstrong Number Checker (`ArmstrongNumber.java`)
+A program to check if a number is an Armstrong number (where the sum of the cubes of its digits equals the number itself).
+- **Example:** `153` is an Armstrong number because `(1*1*1) + (5*5*5) + (3*3*3) = 153`.
+- **Logic:** Extracts digits one by one, cubes them, and adds them to a sum variable.
+- **Key Concept:** Reuses the digit extraction logic from the Palindrome program but applies mathematical powers.🤖
 ----
 
 ### 🚀 How to Run
