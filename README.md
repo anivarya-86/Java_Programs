@@ -115,6 +115,12 @@ A program to check if a number is an Armstrong number (where the sum of the cube
 - **Example:** `153` is an Armstrong number because `(1*1*1) + (5*5*5) + (3*3*3) = 153`.
 - **Logic:** Extracts digits one by one, cubes them, and adds them to a sum variable.
 - **Key Concept:** Reuses the digit extraction logic from the Palindrome program but applies mathematical powers.🤖
+
+### 21. 📊 Array Sum & Average (Modular Approach) (`ArraySumAverage.java`)
+A program that calculates the sum and average of an array using a separate utility class for input handling.
+- **Files Involved:** `ArraySumAverage.java` (Logic) and `ArrayUtility.java` (Input Helper).
+- **Key Concept:** Demonstrates **Modular Programming** by separating the main logic from the input logic.
+- **Logic:** accurately calculates average in `double` to preserve decimal values.
 ----
 
 ### 🚀 How to Run
