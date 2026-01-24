@@ -2,7 +2,7 @@
 public class ArraySumAverage {
     public static void main(String[] args) {
         System.out.println("Welcome to Array sum and average");
-        int [] numArr = ArrayUtility.inputArray();
+        int [] numArr = ArrayUtility.inputArray(); // These is file ArrayUtility.
         long sum = sum(numArr);
         double average = average(numArr);
         System.out.println("Your Array Sum is " + sum);
@@ -25,5 +25,6 @@ public class ArraySumAverage {
 
          }
     }
+
 
 
