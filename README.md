@@ -121,6 +121,12 @@ A program that calculates the sum and average of an array using a separate utili
 - **Files Involved:** `ArraySumAverage.java` (Logic) and `ArrayUtility.java` (Input Helper).
 - **Key Concept:** Demonstrates **Modular Programming** by separating the main logic from the input logic.
 - **Logic:** accurately calculates average in `double` to preserve decimal values.
+
+### 22. 🔎 Count Occurrences (`OccurrencesArray.java`)
+A program that counts how many times a specific number appears in an array.
+- **Example:** In array `{2, 5, 2, 8, 2}`, the number `2` appears **3 times**.
+- **Logic:** It uses a `while` loop to traverse the array and increments a counter variable whenever the target number is found.
+- **Key Concept:** Linear Search algorithm basics.
 ----
 
 ### 🚀 How to Run
