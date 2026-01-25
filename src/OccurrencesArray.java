@@ -4,7 +4,7 @@ public class OccurrencesArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Occurrences \n ");
-        int [] numArr = ArrayUtility.inputArray();
+        int [] numArr = ArrayUtility.inputArray();  // These is file ArrayUtility.java 
         System.out.println("Now Enter the Number You want to Find : ");
         int num = input.nextInt();
         int Occurrences = noOfOccurrences(numArr , num);
@@ -22,3 +22,4 @@ public class OccurrencesArray {
         return occ;
      }
 }
+
