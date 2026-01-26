@@ -127,6 +127,12 @@ A program that counts how many times a specific number appears in an array.
 - **Example:** In array `{2, 5, 2, 8, 2}`, the number `2` appears **3 times**.
 - **Logic:** It uses a `while` loop to traverse the array and increments a counter variable whenever the target number is found.
 - **Key Concept:** Linear Search algorithm basics.
+
+### 23. 📉📈 Min & Max Finder (`MaxMinArray.java`)
+A program that scans an array to find the absolute minimum and maximum values.
+- **Example:** In array `{10, 5, 20, 3}`, the Min is `3` and Max is `20`.
+- **Logic:** Assumes the first element is the min/max, then compares it with the rest of the array to update values.
+- **Key Concept:** Conditional checks inside a loop to update tracking variables.
 ----
 
 ### 🚀 How to Run
