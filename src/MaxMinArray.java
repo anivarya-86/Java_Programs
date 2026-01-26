@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MaxMinArray {
     public static void main(String[] args) {
         System.out.println("Welcome to Max and Min \n");
-        int [] numArr = ArrayUtility.inputArray(); // These are File Code in ArrayUtility.java .
+        int [] numArr = ArrayUtility.inputArray(); // These are File Code in ArrayUtility.java ......
         System.out.println("Your Maximum Number is: " + max(numArr));
         System.out.println("Your Minimum Number is: " + min(numArr));
     }
@@ -34,4 +34,5 @@ public class MaxMinArray {
         }
 
  }
+
 
