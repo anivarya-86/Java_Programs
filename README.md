@@ -133,7 +133,7 @@ A program that scans an array to find the absolute minimum and maximum values.
 - **Example:** In array `{10, 5, 20, 3}`, the Min is `3` and Max is `20`.
 - **Logic:** Assumes the first element is the min/max, then compares it with the rest of the array to update values.
 - **Key Concept:** Conditional checks inside a loop to update tracking variables.
-----
+-------------------------------------------------------------------------------------
 
 ### 🚀 How to Run
 To run any of these files on your local machine:
