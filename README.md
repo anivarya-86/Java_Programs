@@ -133,6 +133,12 @@ A program that scans an array to find the absolute minimum and maximum values.
 - **Example:** In array `{10, 5, 20, 3}`, the Min is `3` and Max is `20`.
 - **Logic:** Assumes the first element is the min/max, then compares it with the rest of the array to update values.
 - **Key Concept:** Conditional checks inside a loop to update tracking variables.
+
+ ### 24. 📉📈 Check Sorted Array (`IsSortedArray.java`)
+A program that checks whether the elements of an array are arranged in ascending order.
+- **Example:** `{1, 2, 3, 4, 5}` returns **True**. `{1, 3, 2, 5}` returns **False**.
+- **Logic:** Iterates through the array and checks if any element is greater than the next element. If such a pair is found, the array is not sorted.
+- **Key Concept:** Using a `boolean` flag and traversing an array to find a specific condition.
 -------------------------------------------------------------------------------------
 
 ### 🚀 How to Run
