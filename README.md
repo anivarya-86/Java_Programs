@@ -140,7 +140,7 @@ A program that checks whether the elements of an array are arranged in ascending
 - **Logic:** Iterates through the array and checks if any element is greater than the next element. If such a pair is found, the array is not sorted.
 - **Key Concept:** Using a `boolean` flag and traversing an array to find a specific condition.
 
-### 25. 🗑️ Delete Element from Array (`DeleteElement.java`)
+### 25. 🗑️ Delete Element from Array (`DeleteElementInArray.java`)
 A program that removes a specific number from an array and returns a new, smaller array.
 - **Example:** Removing `3` from `{1, 3, 2, 3, 4}` results in `{1, 2, 4}`.
 - **Logic:** Since Java arrays are fixed-size, this program creates a **new array**, copies only the elements that do not match the target value, and returns the new array.
