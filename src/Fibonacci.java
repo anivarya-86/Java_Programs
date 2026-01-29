@@ -6,7 +6,8 @@ public class Fibonacci {
         System.out.println("Enter the Fibonacci Series Program");
         System.out.print("Please Enter the Digits :");
         int digit = input.nextInt();
-        System.out.println("Here is the Fibonacci Series : ");
+        System.out.println("Here is the Fibonacci Series : "); 
+        //Class
         printFibonacci(digit);
 
     }
@@ -24,3 +25,4 @@ public class Fibonacci {
          }
     }
 }
+
