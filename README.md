@@ -145,6 +145,12 @@ A program that removes a specific number from an array and returns a new, smalle
 - **Example:** Removing `3` from `{1, 3, 2, 3, 4}` results in `{1, 2, 4}`.
 - **Logic:** Since Java arrays are fixed-size, this program creates a **new array**, copies only the elements that do not match the target value, and returns the new array.
 - **Key Concept:** Array resizing and selective copying.
+
+ ### 26. 🔄 Reverse Array (`ReverseArray.java`)
+A program that reverses the order of elements in an array.
+- **Example:** Input `{1, 2, 3, 4, 5}` becomes `{5, 4, 3, 2, 1}`.
+- **Logic:** Uses two pointers (start and end). It swaps the first element with the last, then moves inward until the middle is reached.
+- **Key Concept:** In-place reversal (modifying the original array without creating a new one). 
 -------------------------------------------------------------------------------------
 
 ### 🚀 How to Run
