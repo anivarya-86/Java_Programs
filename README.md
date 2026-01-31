@@ -150,7 +150,13 @@ A program that removes a specific number from an array and returns a new, smalle
 A program that reverses the order of elements in an array.
 - **Example:** Input `{1, 2, 3, 4, 5}` becomes `{5, 4, 3, 2, 1}`.
 - **Logic:** Uses two pointers (start and end). It swaps the first element with the last, then moves inward until the middle is reached.
-- **Key Concept:** In-place reversal (modifying the original array without creating a new one). 
+- **Key Concept:** In-place reversal (modifying the original array without creating a new one).
+
+### 27. 🔁 Palindrome Array Checker (`PalindromeArray.java`)
+A program that checks if an array reads the same forward and backward.
+- **Example:** `{1, 2, 3, 2, 1}` is a Palindrome. `{1, 2, 3}` is not.
+- **Logic:** Uses two pointers (start and end) to compare elements. If `arr[start] != arr[end]`, it returns false.
+- **Key Concept:** Efficient comparison without creating a new or reversed array ($O(n/2)$ time complexity).
 -------------------------------------------------------------------------------------
 
 ### 🚀 How to Run
