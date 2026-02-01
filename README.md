@@ -157,6 +157,13 @@ A program that checks if an array reads the same forward and backward.
 - **Example:** `{1, 2, 3, 2, 1}` is a Palindrome. `{1, 2, 3}` is not.
 - **Logic:** Uses two pointers (start and end) to compare elements. If `arr[start] != arr[end]`, it returns false.
 - **Key Concept:** Efficient comparison without creating a new or reversed array ($O(n/2)$ time complexity).
+
+### 28. 🔗 Merge Two Sorted Arrays (`MergeTwoSortedArr.java`)
+A program that combines two pre-sorted arrays into a single sorted array.
+- **Example:** Merging `{1, 3, 5}` and `{2, 4, 6}` creates `{1, 2, 3, 4, 5, 6}`.
+- **Logic:** Uses three pointers (`i`, `j`, `k`) to compare elements from both arrays and insert the smaller one into the result array.
+- **Key Concept:** The core logic used in the **Merge Sort** algorithm.
+  
 -------------------------------------------------------------------------------------
 
 ### 🚀 How to Run
