@@ -4,7 +4,7 @@ public class Search2DArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Welcome to 2D Search\n");
-        int[][] numArr = ArrayUtility.input2DArray();
+        int[][] numArr = ArrayUtility.input2DArray();  // These are ArrayUility File.
         System.out.print("Enter the element to find in the Array:");
         int num = input.nextInt();
         boolean search = search(numArr , num );
@@ -29,3 +29,4 @@ public class Search2DArray {
         return false;
     }
 }
+
