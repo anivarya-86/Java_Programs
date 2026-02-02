@@ -163,6 +163,12 @@ A program that combines two pre-sorted arrays into a single sorted array.
 - **Example:** Merging `{1, 3, 5}` and `{2, 4, 6}` creates `{1, 2, 3, 4, 5, 6}`.
 - **Logic:** Uses three pointers (`i`, `j`, `k`) to compare elements from both arrays and insert the smaller one into the result array.
 - **Key Concept:** The core logic used in the **Merge Sort** algorithm.
+
+### 29. 🔍 Search in 2D Array (`SearchTwoDArray.java`)
+A program to search for a specific element within a 2D matrix (array of arrays).
+- **Example:** Searching for `5` in a grid `{{1, 2}, {4, 5}}` returns **True**.
+- **Logic:** Uses nested loops (`i` for rows, `j` for columns) to traverse the grid and compare each element with the target.
+- **Key Concept:** Understanding 2D traversal (Matrices).
   
 -------------------------------------------------------------------------------------
 
