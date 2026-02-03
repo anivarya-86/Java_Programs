@@ -1,10 +1,9 @@
-# 🧮 Java Basic Projects & Calculators
+# ​☕ Java Core: Logic Building & Algorithms :
 
-Welcome to my Java learning repository! 🚀
-This repository contains a collection of essential Java programs that perform mathematical calculations using user input. I created these while learning Core Java concepts.
+​Welcome to my Java learning journey! 🚀 This repository is a dedicated space where I document my progress in mastering Core Java, Logic Building, and Data Structures..
 
 ## 📂 Included Programs
-Here is a list of the tools available in this project:
+Here is a list of the program available in this project:
 
 ### 1. ➗ Arithmetic Calculator (`AllArithmeticOperators.java`)
 A complete calculator that takes two numbers and performs:
