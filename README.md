@@ -178,4 +178,4 @@ To run any of these files on your local machine:
 1. **Clone this repo:**
    ```bash
    git clone [https://github.com/](https://github.com/)anivarya-86/Java_Programs.git}
-   Link 💁 (https://github.com/anivarya-86/Java_Programs)
+   Link 💁 (https://github.com/anivarya-86)
