@@ -168,6 +168,12 @@ A program to search for a specific element within a 2D matrix (array of arrays).
 - **Example:** Searching for `5` in a grid `{{1, 2}, {4, 5}}` returns **True**.
 - **Logic:** Uses nested loops (`i` for rows, `j` for columns) to traverse the grid and compare each element with the target.
 - **Key Concept:** Understanding 2D traversal (Matrices).
+
+### 30. 📊 2D Array Sum & Average (`SumAverageIn2DArr.java`)
+A program to calculate the sum of all elements in a matrix and find their average.
+- **Example:** `{{1, 2}, {3, 4}}` -> Sum: `10`, Average: `2.5`.
+- **Logic:** Nested loops traverse every cell `[i][j]` to accumulate the sum, which is then divided by the total number of elements.
+- **Key Concept:** Matrix traversal and handling `long` for large sums.
   
 -------------------------------------------------------------------------------------
 
