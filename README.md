@@ -174,6 +174,12 @@ A program to calculate the sum of all elements in a matrix and find their averag
 - **Example:** `{{1, 2}, {3, 4}}` -> Sum: `10`, Average: `2.5`.
 - **Logic:** Nested loops traverse every cell `[i][j]` to accumulate the sum, which is then divided by the total number of elements.
 - **Key Concept:** Matrix traversal and handling `long` for large sums.
+
+### 31. ❌ Sum of Diagonals (`DiagonalSum.java`)
+A program to calculate the sum of primary and secondary diagonal elements in a square matrix.
+- **Example:** In a 3x3 matrix, it adds `(0,0), (1,1), (2,2)` and `(0,2), (2,0)`.
+- **Logic:** Uses a single loop ($O(N)$ complexity) instead of nested loops. It specifically handles the center element in odd-sized matrices to avoid double counting.
+- **Key Concept:** Matrix index relationships and Optimization.
   
 -------------------------------------------------------------------------------------
 
