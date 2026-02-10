@@ -3,7 +3,7 @@ import static java.lang.Long.sum;
 public class SumAverageIn2DArr {
   public static void main(String[] args) {
       System.out.println("Welcome to 2D Array Sum and Average Program ");
-      int[][] numArr = ArrayUtility.input2DArray();
+      int[][] numArr = ArrayUtility.input2DArray(); // These are ArrayUitlity (2D array input )
       long sum = Sum(numArr);
       double average = average(numArr);
       System.out.println("Your 2D Array's Sum is : " + sum);
@@ -35,3 +35,4 @@ public class SumAverageIn2DArr {
     }
 
 }
+
