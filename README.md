@@ -168,19 +168,23 @@ A program to search for a specific element within a 2D matrix (array of arrays).
 - **Example:** Searching for `5` in a grid `{{1, 2}, {4, 5}}` returns **True**.
 - **Logic:** Uses nested loops (`i` for rows, `j` for columns) to traverse the grid and compare each element with the target.
 - **Key Concept:** Understanding 2D traversal (Matrices).
-
 ### 30. 📊 2D Array Sum & Average (`SumAverageIn2DArr.java`)
-A program to calculate the sum of all elements in a matrix and find their average.
-- **Example:** `{{1, 2}, {3, 4}}` -> Sum: `10`, Average: `2.5`.
-- **Logic:** Nested loops traverse every cell `[i][j]` to accumulate the sum, which is then divided by the total number of elements.
-- **Key Concept:** Matrix traversal and handling `long` for large sums.
+Calculates the total sum and the mean value of all elements in a 2D matrix.
+- **Key Logic:** Nested loops to traverse rows and columns.
+- **Handling Decimals:** Uses `double` for average to ensure precision.
 
-### 31. ❌ Sum of Diagonals (`DiagonalSum.java`)
-A program to calculate the sum of primary and secondary diagonal elements in a square matrix.
-- **Example:** In a 3x3 matrix, it adds `(0,0), (1,1), (2,2)` and `(0,2), (2,0)`.
-- **Logic:** Uses a single loop ($O(N)$ complexity) instead of nested loops. It specifically handles the center element in odd-sized matrices to avoid double counting.
-- **Key Concept:** Matrix index relationships and Optimization.
-  
+### 31. ❌ Diagonal Sum (Optimized) (`DiagonalSum2DArray.java`)
+A specialized program to find the sum of both Primary (Left) and Secondary (Right) diagonals.
+- **Smart Logic:** Correctly handles the center element in **Odd-sized matrices** (e.g., 3x3) by subtracting the intersection point once to avoid double counting.
+- **Modular Approach:** Built using separate methods for Left and Right diagonal sums for better readability.
+
+---
+
+## 📈 Contribution & Growth
+I am actively maintaining this repository to track my daily progress in Java.
+- **Daily Commits:** Building a consistent coding habit on GitHub.
+- **Code Refactoring:** Improving old code with better logic and utility classes.
+
 -------------------------------------------------------------------------------------
 
 ### 🚀 How to Run
