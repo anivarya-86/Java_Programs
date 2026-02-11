@@ -178,6 +178,11 @@ A specialized program to find the sum of both Primary (Left) and Secondary (Righ
 - **Smart Logic:** Correctly handles the center element in **Odd-sized matrices** (e.g., 3x3) by subtracting the intersection point once to avoid double counting.
 - **Modular Approach:** Built using separate methods for Left and Right diagonal sums for better readability.
 
+### 32. 🚗 Class & Objects Basics (`Car.java`)
+Introduction to **Object-Oriented Programming (OOPs)**.
+- **Concept:** Created a `Car` class as a blueprint and instantiated objects in the `Driver` class.
+- **Key Learning:** Understanding the difference between Attributes (variables) and Behaviors (methods).
+
 ---
 
 ## 📈 Contribution & Growth
