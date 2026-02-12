@@ -1,5 +1,5 @@
 public class Car {
-    int  noOfWheels ;
+    int  noOfWheels ;     // These are Blueprint of Car and Object is Driver.java.
 
     String color ;
 
@@ -33,5 +33,6 @@ public class Car {
     }
 
     }
+
 
 
