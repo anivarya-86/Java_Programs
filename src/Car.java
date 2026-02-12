@@ -28,9 +28,10 @@ public class Car {
     public void color(){
         System.out.println("Color : Black " + color );
     }
-    public static int seat (){
-        return 4;
+    public void seat (){
+         System.out.println("4 Seats" )
     }
 
     }
+
 
