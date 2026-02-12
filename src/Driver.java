@@ -1,6 +1,6 @@
 public class Driver {
     public static void main(String[] args) {
-        Car myCar = new Car();
+        Car myCar = new Car();  // Class = Car.java
 
         myCar.drive();
         myCar.addFuel(9);
@@ -8,6 +8,8 @@ public class Driver {
         myCar.getCurrentFuel();
         myCar.color();
         myCar.speed();
+        myCar.seat();
 
     }
 }
+
