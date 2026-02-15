@@ -183,6 +183,12 @@ Introduction to **Object-Oriented Programming (OOPs)**.
 - **Concept:** Created a `Car` class as a blueprint and instantiated objects in the `Driver` class.
 - **Key Learning:** Understanding the difference between Attributes (variables) and Behaviors (methods).
 
+### 33. 📚 Advanced Library System (`Book.java`)
+A robust implementation of OOPs featuring Static members and Constructor Chaining.
+- **Key Concepts:** `static` blocks for global tracking, `this()` for constructor chaining, and instance blocks.
+- **Logic:** Tracks total book count automatically across all instances.
+- **Refactoring:** Improved naming conventions and state management (isBorrowed). 
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
