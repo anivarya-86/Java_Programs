@@ -187,7 +187,12 @@ Introduction to **Object-Oriented Programming (OOPs)**.
 A robust implementation of OOPs featuring Static members and Constructor Chaining.
 - **Key Concepts:** `static` blocks for global tracking, `this()` for constructor chaining, and instance blocks.
 - **Logic:** Tracks total book count automatically across all instances.
-- **Refactoring:** Improved naming conventions and state management (isBorrowed). 
+- **Refactoring:** Improved naming conventions and state management (isBorrowed).
+
+ ### 34. 🎓 Course Enrollment System (`Course.java`)
+A system to manage student enrollments using arrays and static constraints.
+- **Key Concepts:** Static variables for global capacity, instance arrays for student tracking, and boundary condition handling.
+- **Logic:** Includes safety checks to prevent `ArrayIndexOutOfBoundsException` when the course reaches its maximum capacity. 
 
 ---------------------------------------------------------------------------------------
 
