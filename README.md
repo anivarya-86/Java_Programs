@@ -192,7 +192,13 @@ A robust implementation of OOPs featuring Static members and Constructor Chainin
  ### 34. 🎓 Course Enrollment System (`Course.java`)
 A system to manage student enrollments using arrays and static constraints.
 - **Key Concepts:** Static variables for global capacity, instance arrays for student tracking, and boundary condition handling.
-- **Logic:** Includes safety checks to prevent `ArrayIndexOutOfBoundsException` when the course reaches its maximum capacity. 
+- **Logic:** Includes safety checks to prevent `ArrayIndexOutOfBoundsException` when the course reaches its maximum capacity.
+
+### 35. 📉 Minimum Number Finder (`FindMinimumNUM.java`)
+A simple utility to find the smaller of two numbers using the **Ternary Operator**.
+- **Logic:** `(condition) ? value_if_true : value_if_false`
+- **Key Concept:** Replacing multi-line `if-else` blocks with a single line of code for better readability.
+- **Optimization:** Reduces boilerplate code in simple conditional assignments.
 
 ---------------------------------------------------------------------------------------
 
