@@ -200,6 +200,12 @@ A simple utility to find the smaller of two numbers using the **Ternary Operator
 - **Key Concept:** Replacing multi-line `if-else` blocks with a single line of code for better readability.
 - **Optimization:** Reduces boilerplate code in simple conditional assignments.
 
+ ### 36. ⚖️ Even or Odd Checker (`TernaryEvenOdd.java`)
+A quick utility to check if a number is Even or Odd using the **Ternary Operator**.
+- **Logic:** `num % 2 == 0 ? "Even" : "Odd"`
+- **Key Learning:** Learned how to return a **String** based on a mathematical condition in a single line.
+- **Advantage:** Clean and readable code compared to traditional `if-else`. 
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
