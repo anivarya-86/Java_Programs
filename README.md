@@ -206,6 +206,11 @@ A quick utility to check if a number is Even or Odd using the **Ternary Operator
 - **Key Learning:** Learned how to return a **String** based on a mathematical condition in a single line.
 - **Advantage:** Clean and readable code compared to traditional `if-else`. 
 
+### 37. 📍 Absolute Value Calculator (`AbsoluteTernary.java`)
+A program to find the absolute value of an integer using the **Ternary Operator**.
+- **Logic:** `number >= 0 ? number : -number`
+- **Key Concept:** Converting negative inputs to positive while keeping positive inputs unchanged.
+- **Math Connection:** Replicating the `Math.abs()` functionality with custom logic.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
