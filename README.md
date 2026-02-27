@@ -211,6 +211,12 @@ A program to find the absolute value of an integer using the **Ternary Operator*
 - **Logic:** `number >= 0 ? number : -number`
 - **Key Concept:** Converting negative inputs to positive while keeping positive inputs unchanged.
 - **Math Connection:** Replicating the `Math.abs()` functionality with custom logic.
+
+### 38. 🎓 Student Category Checker (`StudentScoreTernary.java`)
+An advanced use of the **Nested Ternary Operator** to categorize student marks.
+- **Logic:** `marks > 80 ? "High" : (marks > 50 ? "Mid" : "Low")`
+- **Key Learning:** Learned how to nest ternary operators to handle more than two conditions in a single line.
+- **Clean Code:** Demonstrates how to write compact logic without multiple `if-else` blocks. 
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
