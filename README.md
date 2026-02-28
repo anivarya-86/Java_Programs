@@ -216,7 +216,13 @@ A program to find the absolute value of an integer using the **Ternary Operator*
 An advanced use of the **Nested Ternary Operator** to categorize student marks.
 - **Logic:** `marks > 80 ? "High" : (marks > 50 ? "Mid" : "Low")`
 - **Key Learning:** Learned how to nest ternary operators to handle more than two conditions in a single line.
-- **Clean Code:** Demonstrates how to write compact logic without multiple `if-else` blocks. 
+- **Clean Code:** Demonstrates how to write compact logic without multiple `if-else` blocks.
+
+### 39. 📅 Month Calendar Finder (`MonthCalendar.java`)
+A program to display the name of the month based on user input (1-12) using **Switch Case**.
+- **Key Concept:** Efficient multi-way branching.
+- **Handling Errors:** Uses a `default` case to manage invalid inputs.
+- **Optimization:** Avoids long `if-else-if` chains for better readability. 
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
