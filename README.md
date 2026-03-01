@@ -222,7 +222,13 @@ An advanced use of the **Nested Ternary Operator** to categorize student marks.
 A program to display the name of the month based on user input (1-12) using **Switch Case**.
 - **Key Concept:** Efficient multi-way branching.
 - **Handling Errors:** Uses a `default` case to manage invalid inputs.
-- **Optimization:** Avoids long `if-else-if` chains for better readability. 
+- **Optimization:** Avoids long `if-else-if` chains for better readability.
+
+### 40. 🔢 Simple Calculator (`SimpleCalculator.java`)
+A functional calculator that performs basic arithmetic operations using **Switch Case**.
+- **Input Handling:** Learned how to take `char` input in Java.
+- **Logic:** Each mathematical operator acts as a `case`.
+- **Safety Check:** Added a condition to prevent division by zero, which is a common runtime error.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
