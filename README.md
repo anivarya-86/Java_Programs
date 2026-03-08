@@ -229,6 +229,12 @@ A functional calculator that performs basic arithmetic operations using **Switch
 - **Input Handling:** Learned how to take `char` input in Java.
 - **Logic:** Each mathematical operator acts as a `case`.
 - **Safety Check:** Added a condition to prevent division by zero, which is a common runtime error.
+
+ ### 41. 🔐 Password Validator (`PasswordChecker.java`)
+A basic security utility that ensures a user sets a password with a minimum length requirement.
+- **Key Concept:** Implemented using a **`do-while` loop** to ensure the input prompt runs at least once.
+- **Validation:** Uses a boolean method to keep the main logic clean and reusable.
+- **Constraint:** Minimum length set to 6 characters. 
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
