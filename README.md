@@ -234,7 +234,13 @@ A functional calculator that performs basic arithmetic operations using **Switch
 A basic security utility that ensures a user sets a password with a minimum length requirement.
 - **Key Concept:** Implemented using a **`do-while` loop** to ensure the input prompt runs at least once.
 - **Validation:** Uses a boolean method to keep the main logic clean and reusable.
-- **Constraint:** Minimum length set to 6 characters. 
+- **Constraint:** Minimum length set to 6 characters.
+
+### 42. ✖️ Multiplication Table (`MultiplicationTableFOR.java`)
+A simple program to generate a math table for any number using the **`for` loop**.
+- **Key Concept:** Iteration and loop scope.
+- **Learning:** Corrected the common mistake of adding a semicolon after the loop declaration.
+- **Output Format:** Cleanly displays the table in `num x i = result` format.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
