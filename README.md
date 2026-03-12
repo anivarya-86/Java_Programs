@@ -241,12 +241,20 @@ A simple program to generate a math table for any number using the **`for` loop*
 - **Key Concept:** Iteration and loop scope.
 - **Learning:** Corrected the common mistake of adding a semicolon after the loop declaration.
 - **Output Format:** Cleanly displays the table in `num x i = result` format.
+
+### 43. 🔢 Prime Number Checker (`PrimeForLoop.java`)
+A robust utility to determine if a given number is Prime using a `for` loop.
+- **Logic:** Iterates from 2 to $N-1$ to check for any divisors.
+- **Efficiency:** Uses an early `return false` as soon as a factor is found.
+- **Key Concept:** Understanding the modulo operator and boolean flags in loops. 
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
 I am actively maintaining this repository to track my daily progress in Java.
 - **Daily Commits:** Building a consistent coding habit on GitHub.
 - **Code Refactoring:** Improving old code with better logic and utility classes.
+
+ 
 
 -------------------------------------------------------------------------------------
 
