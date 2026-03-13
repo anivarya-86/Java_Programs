@@ -246,7 +246,12 @@ A simple program to generate a math table for any number using the **`for` loop*
 A robust utility to determine if a given number is Prime using a `for` loop.
 - **Logic:** Iterates from 2 to $N-1$ to check for any divisors.
 - **Efficiency:** Uses an early `return false` as soon as a factor is found.
-- **Key Concept:** Understanding the modulo operator and boolean flags in loops. 
+- **Key Concept:** Understanding the modulo operator and boolean flags in loops.
+
+### 45. 📉 Find Minimum in Array (`OccurrenceForEach.java`)
+A sister program to MaxArray that identifies the smallest element in a given set.
+- **Logic:** Initializes with `Integer.MAX_VALUE` and compares each element to find the smallest.
+- **Key Learning:** Understanding boundary values and how to flip comparison logic for different goals.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
