@@ -252,6 +252,12 @@ A robust utility to determine if a given number is Prime using a `for` loop.
 A sister program to MaxArray that identifies the smallest element in a given set.
 - **Logic:** Initializes with `Integer.MAX_VALUE` and compares each element to find the smallest.
 - **Key Learning:** Understanding boundary values and how to flip comparison logic for different goals.
+
+### 46. 🚪 Exit on 'Exit' Command (`ExitOnExit.java`)
+A program that demonstrates how to create and control an infinite loop.
+- **Key Feature:** Uses `while(true)` to keep the program running until a specific condition is met.
+- **String Handling:** Uses `equalsIgnoreCase()` for flexible user input . // To use equalCase().
+- **Control Flow:** Implements the `break` statement to exit the loop gracefully.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
