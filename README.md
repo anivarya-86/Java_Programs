@@ -258,6 +258,12 @@ A program that demonstrates how to create and control an infinite loop.
 - **Key Feature:** Uses `while(true)` to keep the program running until a specific condition is met.
 - **String Handling:** Uses `equalsIgnoreCase()` for flexible user input . // To use equalCase().
 - **Control Flow:** Implements the `break` statement to exit the loop gracefully.
+
+### 48. 🔍 Element Occurrence Finder (`OccurrencesForEach.java`)
+A utility to count how many times a specific number appears in an array using the **Enhanced For Loop**.
+- **Looping Technique:** Uses `for-each` to traverse the array without manually managing indices.
+- **Logic:** Increments a counter every time a match is found.
+- **Complexity:** Efficient $O(N)$ linear search.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
