@@ -18,7 +18,7 @@ public class OccurrencesForEach {
             }
 
         }
-        return occ++;
+        return occ;
 
     }
 }
