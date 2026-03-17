@@ -264,6 +264,12 @@ A utility to count how many times a specific number appears in an array using th
 - **Looping Technique:** Uses `for-each` to traverse the array without manually managing indices.
 - **Logic:** Increments a counter every time a match is found.
 - **Complexity:** Efficient $O(N)$ linear search.
+
+### 49. 📝 Object Representation (`StudentToString.java`)
+Mastering the `toString()` method to provide a human-readable representation of objects.
+- **Key Concept:** Method Overriding from the Object class.
+- **Functionality:** Instead of printing memory addresses, the program displays formatted student details.
+- **Constructor:** Uses the `this` keyword for proper initialization of instance variables.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
