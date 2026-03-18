@@ -270,6 +270,13 @@ Mastering the `toString()` method to provide a human-readable representation of 
 - **Key Concept:** Method Overriding from the Object class.
 - **Functionality:** Instead of printing memory addresses, the program displays formatted student details.
 - **Constructor:** Uses the `this` keyword for proper initialization of instance variables.
+
+### 50. 🎮 The Number Guessing Game (`GuessingGame.java`) - HALF CENTURY! 🎉
+A fully functional interactive game built using Object-Oriented principles.
+- **Key Concepts:** Classes, Constructors, and the `Math` library.
+- **Game Logic:** Implemented using `do-while` loops and conditional hints.
+- **Math:** Utilized `Math.random()` and `Math.ceil()` to generate dynamic target numbers.
+- **Milestone:** This marks my 50th Java program!
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
