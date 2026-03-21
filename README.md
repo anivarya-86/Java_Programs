@@ -277,6 +277,12 @@ A fully functional interactive game built using Object-Oriented principles.
 - **Game Logic:** Implemented using `do-while` loops and conditional hints.
 - **Math:** Utilized `Math.random()` and `Math.ceil()` to generate dynamic target numbers.
 - **Milestone:** This marks my 50th Java program!
+
+### 51. 🏦 Secure Bank Account System (`BankAccount.java`)
+A practical implementation of Encapsulation to manage financial transactions safely.
+- **Security:** Uses `private` access modifiers to protect sensitive data like account balance.
+- **Validation:** Methods include checks to prevent invalid (zero or negative) deposits and withdrawals.
+- **Controlled Access:** Provides a `getBalance()` method to view the balance without allowing direct modification.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
