@@ -283,6 +283,12 @@ A practical implementation of Encapsulation to manage financial transactions saf
 - **Security:** Uses `private` access modifiers to protect sensitive data like account balance.
 - **Validation:** Methods include checks to prevent invalid (zero or negative) deposits and withdrawals.
 - **Controlled Access:** Provides a `getBalance()` method to view the balance without allowing direct modification.
+
+### 52. 📐 Geometry System with Abstraction (`Shape.java`)
+A robust implementation of Abstract Classes and Method Overriding.
+- **Abstraction:** Created a blueprint `Shape` that forces all subclasses to implement area calculation.
+- **Polymorphism:** Different shapes (Circle, Square) provide their own specific logic for the same method.
+- **Math Library:** Used `Math.PI` and `Math.pow()` for precise geometric calculations.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
