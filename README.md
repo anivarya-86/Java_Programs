@@ -289,6 +289,13 @@ A robust implementation of Abstract Classes and Method Overriding.
 - **Abstraction:** Created a blueprint `Shape` that forces all subclasses to implement area calculation.
 - **Polymorphism:** Different shapes (Circle, Square) provide their own specific logic for the same method.
 - **Math Library:** Used `Math.PI` and `Math.pow()` for precise geometric calculations.
+
+### 53. 🦅 Bird Flight System (OOPs Architecture)
+A complex implementation combining Interfaces, Abstract Classes, and Inheritance.
+- **Interface:** Defines the `Fly` capability.
+- **Abstraction:** Uses an `abstract class Bird` to provide a base structure for all birds.
+- **Inheritance:** `Eagle` extends `Bird` and implements specific flying behavior.
+- **Encapsulation:** Uses `private final` fields in the base class for data integrity.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
