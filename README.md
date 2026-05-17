@@ -296,6 +296,13 @@ A complex implementation combining Interfaces, Abstract Classes, and Inheritance
 - **Abstraction:** Uses an `abstract class Bird` to provide a base structure for all birds.
 - **Inheritance:** `Eagle` extends `Bird` and implements specific flying behavior.
 - **Encapsulation:** Uses `private final` fields in the base class for data integrity.
+
+### 54. ➗ Method Overloading Calculator (`Calculator.java`)
+An entry into Polymorphism by implementing Method Overloading in Java.
+- **Key Concept:** Compile-time Polymorphism (Method Overloading).
+- **Flexibility:** The same `add` method name handles 2 integers, 3 integers, and double values seamlessly.
+- **JVM Smart Routing:** Learned how Java distinguishes methods based on their method signatures (parameters and types).
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
