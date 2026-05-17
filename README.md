@@ -303,6 +303,12 @@ An entry into Polymorphism by implementing Method Overloading in Java.
 - **Flexibility:** The same `add` method name handles 2 integers, 3 integers, and double values seamlessly.
 - **JVM Smart Routing:** Learned how Java distinguishes methods based on their method signatures (parameters and types).
 
+### 55. 🚗 Vehicle Service System - Method Overriding (`Vehicle.java`)
+An exploration into Runtime Polymorphism and the power of the `super` keyword.
+- **Key Concept:** Runtime Polymorphism via Method Overriding and Upcasting (`Vehicle v = new car()`).
+- **Super Keyword:** Learned how to invoke the parent class's overridden method using `super.service()`.
+- **Dynamic Dispatch:** Understanding how JVM determines which method to execute at runtime based on the actual object type rather than the reference type.
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
