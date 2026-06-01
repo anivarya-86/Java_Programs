@@ -309,6 +309,12 @@ An exploration into Runtime Polymorphism and the power of the `super` keyword.
 - **Super Keyword:** Learned how to invoke the parent class's overridden method using `super.service()`.
 - **Dynamic Dispatch:** Understanding how JVM determines which method to execute at runtime based on the actual object type rather than the reference type.
 
+### 56. ⚠️ Division Safety with Exception Handling (`exceptionHandling.java`)
+An introduction to robust coding practices using `try-catch` blocks in Java.
+- **Key Concept:** Handling runtime errors dynamically without crashing the application.
+- **Specific Catch:** Targets `ArithmeticException` specifically caused by division by zero.
+- **String Validation:** Uses `exception.getMessage()` to verify the exact internal error string.
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
