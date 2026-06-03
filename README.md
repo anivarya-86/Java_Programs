@@ -315,6 +315,12 @@ An introduction to robust coding practices using `try-catch` blocks in Java.
 - **Specific Catch:** Targets `ArithmeticException` specifically caused by division by zero.
 - **String Validation:** Uses `exception.getMessage()` to verify the exact internal error string.
 
+### 57. 📂 File Reader with Safe Resource Management (`MakeFile.java`)
+A robust program to read and display the contents of a text file safely.
+- **Modern Try-with-resources:** Implemented automatic resource management to clean up and close file streams without a `finally` block.
+- **Character Streaming:** Uses `FileReader.read()` to stream data character-by-character until EOF (`-1`) is reached.
+- **Hierarchical Exception Handling:** Correctly orders catch blocks by capturing the specific `FileNotFoundException` before the broader `IOException`.
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
