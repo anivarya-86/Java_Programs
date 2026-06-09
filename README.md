@@ -321,6 +321,12 @@ A robust program to read and display the contents of a text file safely.
 - **Character Streaming:** Uses `FileReader.read()` to stream data character-by-character until EOF (`-1`) is reached.
 - **Hierarchical Exception Handling:** Correctly orders catch blocks by capturing the specific `FileNotFoundException` before the broader `IOException`.
 
+### 58. 🧩 Dynamic String Concatenator with Varargs (`VaeArgs.java`)
+An implementation of Java Variable Arguments (Varargs) to build highly flexible methods.
+- **Key Concept:** Using `Data_Type...` syntax to allow a method to accept any number of arguments (from zero to many).
+- **Internal Mechanism:** Learned how the JVM implicitly converts varargs into a standard array under the hood.
+- **Memory Optimization:** Utilized `StringBuilder` for efficient string manipulation and concatenation inside an enhanced for loop.
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
