@@ -327,6 +327,12 @@ An implementation of Java Variable Arguments (Varargs) to build highly flexible 
 - **Internal Mechanism:** Learned how the JVM implicitly converts varargs into a standard array under the hood.
 - **Memory Optimization:** Utilized `StringBuilder` for efficient string manipulation and concatenation inside an enhanced for loop.
 
+### 59. 📊 Element Frequency using Collections Utility (`Frequency.java`)
+Using Java's built-in Collections framework to count element occurrences efficiently.
+- **Data Structure:** Utilized `List` wrapper via `Arrays.asList()` to initialize a collection instantly.
+- **Framework Power:** Replaced manual looping with `Collections.frequency()` for cleaner, production-grade code.
+- **Efficiency:** Leverages optimized standard library utilities for single-line search operations.
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
