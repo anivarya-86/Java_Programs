@@ -333,6 +333,12 @@ Using Java's built-in Collections framework to count element occurrences efficie
 - **Framework Power:** Replaced manual looping with `Collections.frequency()` for cleaner, production-grade code.
 - **Efficiency:** Leverages optimized standard library utilities for single-line search operations.
 
+### 60. 🔄 Elements Swapping in a List (`ListSwapping.java`)
+A fundamental program implementing the element swapping algorithm within a `List` structure.
+- **Data Manipulation:** Uses `.get()` and `.set()` methods of the List interface to exchange values between indices.
+- **Logic:** Implemented using a temporary variable strategy to prevent data loss during overwriting.
+- **Framework Utility:** Explored how this manual logic compares to the built-in `Collections.swap()` method.
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
