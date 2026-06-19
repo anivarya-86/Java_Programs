@@ -339,6 +339,12 @@ A fundamental program implementing the element swapping algorithm within a `List
 - **Logic:** Implemented using a temporary variable strategy to prevent data loss during overwriting.
 - **Framework Utility:** Explored how this manual logic compares to the built-in `Collections.swap()` method.
 
+### 61. 👑 Student Priority Queue with Custom Comparator (`StudentPriorityQueue.java`)
+An advanced data structure implementation using `PriorityQueue` to manage custom objects based on priority rules.
+- **Custom Comparator:** Overrode the `compare()` method to sort students based on their character grades (`'A'` to `'C'`).
+- **Data Structure Mechanics:** Learned that `PriorityQueue` internally uses a Min-Heap structure, requiring sequential `.poll()` operations to retrieve fully sorted elements.
+- **ASCII Comparison:** Leveraged `Character.compare()` to seamlessly handle alphabetic priority tracking.
+
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
