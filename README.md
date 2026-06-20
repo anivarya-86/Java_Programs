@@ -350,6 +350,12 @@ An implementation of constant data structures using Java **Enums**.
 - **Constants Definition:** Created a fixed set of constants representing the days of the week in uppercase standard formatting.
 - **Iteration:** Utilized the built-in `.values()` method to implicitly convert the enum constants into an iterable array.
 - **Type Safety:** Demonstrated how enums provide a type-safe alternative to standard integer or string constants.
+
+### 63. 🗺️ Country-Capital Finder using HashMap (`CountryMap.java`)
+An entry into the Java Map interface to store data in **Key-Value pairs**.
+- **Data Structure:** Utilized `HashMap` for lightning-fast lookups with $O(1)$ time complexity.
+- **Key Methods:** Mastered `containsKey()` to safely check for existence and `get()` to retrieve associated values dynamically.
+- **Optimization:** Replaced manual array indexing with a streamlined hash map routing utility.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
