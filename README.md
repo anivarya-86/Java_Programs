@@ -345,6 +345,11 @@ An advanced data structure implementation using `PriorityQueue` to manage custom
 - **Data Structure Mechanics:** Learned that `PriorityQueue` internally uses a Min-Heap structure, requiring sequential `.poll()` operations to retrieve fully sorted elements.
 - **ASCII Comparison:** Leveraged `Character.compare()` to seamlessly handle alphabetic priority tracking.
 
+### 62. 📅 Weekdays Iteration using Enums (`DayEnums.java`)
+An implementation of constant data structures using Java **Enums**.
+- **Constants Definition:** Created a fixed set of constants representing the days of the week in uppercase standard formatting.
+- **Iteration:** Utilized the built-in `.values()` method to implicitly convert the enum constants into an iterable array.
+- **Type Safety:** Demonstrated how enums provide a type-safe alternative to standard integer or string constants.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
