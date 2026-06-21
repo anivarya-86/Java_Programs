@@ -356,6 +356,21 @@ An entry into the Java Map interface to store data in **Key-Value pairs**.
 - **Data Structure:** Utilized `HashMap` for lightning-fast lookups with $O(1)$ time complexity.
 - **Key Methods:** Mastered `containsKey()` to safely check for existence and `get()` to retrieve associated values dynamically.
 - **Optimization:** Replaced manual array indexing with a streamlined hash map routing utility.
+
+### 64. 🧵 Single vs Multi-Threaded Execution (`NeedMultiThread.java` & `ThreadAll.java`)
+An exploration into concurrent programming by shifting from sequential execution to parallel execution.
+- **Thread Class:** Extended the `Thread` class and overrode the `run()` method to create distinct sub-tasks.
+- **Concurrency:** Demonstrated how JVM schedules multiple threads simultaneously, resulting in interleaved character outputs.
+
+### 65. 🛌 Thread States and Sleep Hook (`SleepState.java`)
+Understanding the lifecycle of a thread by freezing its execution temporarily.
+- **Timed Waiting:** Utilized `Thread.sleep()` to pause the main thread execution for 2000 milliseconds.
+- **Exception Checking:** Handled the checked `InterruptedException` required by thread state operations.
+
+### 66. 🔒 Thread Synchronization & Joins (`SynchronizeThread.java`)
+Preventing data race conditions in a multi-threaded environment using locks.
+- **Thread Safety:** Implemented the `synchronized` keyword to ensure mutual exclusion on shared resources.
+- **Thread Coordination:** Used `.join()` to guarantee that the main logging thread waits for worker threads (`t1`, `t2`) to complete execution before printing the final counter value.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
