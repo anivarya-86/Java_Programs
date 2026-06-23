@@ -371,6 +371,21 @@ Understanding the lifecycle of a thread by freezing its execution temporarily.
 Preventing data race conditions in a multi-threaded environment using locks.
 - **Thread Safety:** Implemented the `synchronized` keyword to ensure mutual exclusion on shared resources.
 - **Thread Coordination:** Used `.join()` to guarantee that the main logging thread waits for worker threads (`t1`, `t2`) to complete execution before printing the final counter value.
+
+
+### 67. 🏭 Thread Pooling with ExecutorService (`TestServiceExecutor.java`)
+Shifting from manual thread creation to production-grade Thread Pool management.
+- **Thread Pool:** Created a fixed pool of 3 reusable worker threads using `Executors.newFixedThreadPool()`.
+- **Resource Cleanup:** Mastered the use of `.shutdown()` to prevent background resource leaks and allow graceful application exits.
+
+
+### 68. 🔮 Asynchronous Task Results with Callable and Future (`TestReturnFuture.java`)
+Implementing multi-threaded tasks that calculate and return values asynchronously.
+- **Callable Interface:** Leveraged threads capable of returning data results instead of standard `void` runners.
+- **Future Receipts:** Used `Future<T>` tokens to manage pending asynchronous results seamlessly.
+- **Synchronization:** Implemented `.get()` to safely block execution until data streaming from worker threads is fully resolved.
+- **Callable Implementation (`ReturnFuture.java`):** Designed a worker task by implementing `Callable<String>` to return a formatted string.
+- **Simulated Latency:** Used `Thread.sleep(2000)` to simulate real-world heavy processing or database fetching before updating the data state.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
