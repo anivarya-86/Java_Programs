@@ -409,6 +409,31 @@ Embracing Functional Programming by shrinking boilerplate code structures.
 Leveraged Java's Stream API to replace iterative overhead with fast pipelines.
 - **Predicate Filtering:** Integrated declarative `.filter()` hooks to dynamically isolate data sets.
 - **Reduction Operations:** Mastered the complex `.reduce()` accumulator to compress unstructured collection lists into formatted terminal strings.
+
+### 74. 🧹 Stream-Based Duplicate Removal (`DuplicatesRemove.java`)
+Using declarative programming to filter collection elements cleanly.
+- **Distinct Pipeline:** Utilized `.distinct()` intermediate operation to filter unique integers.
+- **Terminal Collector:** Used `Collectors.toList()` to re-collect processed streams back into a fresh List.
+
+### 75. ⚡ Mathematical Stream Pipelines with Method References (`FinalTest.java`)
+A multi-stage data transformation pipeline executing heavy operations in single-line constructs.
+- **Type Parsing:** Combined `Integer::parseInt` with `Math.pow()` via map conversions.
+- **Safe Evaluation:** Wrapped final accumulation with `.ifPresent()` to prevent unexpected null executions.
+
+### 76. 🛡️ Null Safety with Java Optional (`OptionalString.java`)
+Eliminating traditional null pointer checking practices by introducing container architectures.
+- **Optional Container:** Leveraged `Optional.empty()` and `Optional.of()` factories to handle dynamic string parameters safely.
+- **Data Transformation:** Standardized text manipulation by wrapping `.toUpperCase()` executions within safe optional wrappers.
+
+### 77. ⚙️ Custom Functional Interface Architecture (`TestingCandidate.java`)
+Designing custom lambdas to execute abstract mathematical expressions.
+- **SAM Interface:** Built a Single Abstract Method (SAM) interface named `Candidate`.
+- **Lambda Block Execution:** Implemented variable loop conditions directly within the lambda function structure.
+
+### 78. 🌊 IntStream Range Reduction (`TestingFactorial.java`)
+Replacing classic looping states with low-level primitive streams.
+- **Primitive Streams:** Used `IntStream.rangeClosed()` to instantly generate bounded dynamic arrays.
+- **Reduction Engine:** Combined inline tracking with lambda product accumulators (`(a,b) -> a*b`) for terminal evaluations.
 ---------------------------------------------------------------------------------------
 
 ## 📈 Contribution & Growth
